@@ -1,0 +1,14 @@
+body
+{
+    background-color: blue
+}
+
+div#header
+{
+    background-color: red;
+}
+
+div#footer
+{
+    background-color: yellow;
+}
