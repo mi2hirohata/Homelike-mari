@@ -19,5 +19,5 @@ function clocknow(){
     if ( s < 10 ) { s = "0" + s ; }
  
     // HTML内に日付・日時を挿入
-    document.getElementById("content").innerHTML = "<span id="+ "date" +">" + y + "/" + mo + "/" + d + "/(" + w + ")</span><span id=" + "time" + ">" + h + ":" + mi + ":" + s;
+    document.getElementById("clock").innerHTML = "<span id="+ "date" +">" + y + "/" + mo + "/" + d + "/(" + w + ")</span><span id=" + "time" + ">" + h + ":" + mi + ":" + s;
 }
