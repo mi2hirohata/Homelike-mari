@@ -1,72 +1,93 @@
 @charset "utf-8";
-
-*{
-    margin: 0; 
-    padding: 0
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-
-a {
-    text-decoration : none
+html,
+body {
+  height: 100%;
+  overflow: hidden;
 }
-
-ul, ol { 
-    list-style : none
+body {
+  background-image: url("../image/Back_img.jpeg");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 100px 0 50px 0;
 }
-
-ul{
-    text-align: center;
+#wrapper {
+  text-align: center;
 }
-
-ul li {
-    display: inline;
-    width: 40px;
-    padding: 0 5px;
-    border-right: 1px solid #999;
-    border-left: 1px solid #999;
-    margin-right: -1px;
+header {
+  position: fixed !important;
+  background-color: #66ffcc;
+  top: 0;
+  left: 50%;
+  height: 100px;
+  width: 1000px;
+  margin: 0 0 0 -500px;
 }
-
-ul li a {
-    white-space: nowrap;
+header ul,
+header ol {
+  list-style: none;
 }
-
-html, body {
-    height: 100%;
+header ul li {
+  display: inline;
+  width: 40px;
+  padding: 0 5px;
+  border-right: 1px solid #999;
+  border-left: 1px solid #999;
+  margin-right: -1px;
+  color: green;
 }
-
-body{
-    background-color: blue
+header ul li a {
+  white-space: nowrap;
 }
-
-header{
-    background-color: red;
-    height: 100px;
+#container {
+  min-height: 100%;
+  width: 1000px;
+  margin: 0 auto;
 }
-
-footer{
-    background-color: yellow;
-    position: relative;
-    margin-top: -100px;
-    height: 100px;
-    clear:both;
+#left_side_bar {
+  float: left;
+  width: 200px;
+  padding-bottom: 50px;
+  overflow: auto;
 }
-
-#wrap {
-    min-height: 100%;
+#left_side_bar ul,
+#left_side_bar ol {
+  list-style: none;
+  text-align: center;
 }
-
-#main {
-    overflow:auto;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    margin-top: -100px;
+#left_side_bar ul li {
+  width: 200px;
+  padding: 10px 0 10px 0;
 }
-
+#left_side_bar ul li a {
+  white-space: nowrap;
+}
+#content {
+  width: 800px;
+  text-align: center;
+  float: left;
+  padding-bottom: 50px;
+  overflow: auto;
+}
+footer {
+  background-color: #66ffcc;
+  position: fixed !important;
+  bottom: 0%;
+  left: 50%;
+  height: 50px;
+  width: 1000px;
+  margin: 0 0 0 -500px;
+}
 /*Opera Fix*/
 body:before {
-    content:"";
-    height:100%;
-    float:left;
-    width:0;
-    margin-top:-32767px;
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
 }
