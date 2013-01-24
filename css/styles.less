@@ -4,6 +4,8 @@
 @left_side_bar_size:200px;
 @header_height_size:100px;
 @footer_height_size:50px;
+@button_width:200px;
+@button_height:55px;
 
 *{
     margin: 0; 
@@ -68,8 +70,7 @@ header{
     float: left;
     width: @left_side_bar_size;
     padding-bottom: @footer_height_size;
-    overflow:auto;
-    
+    overflow:auto;    
     ul, ol { 
     list-style : none;
     text-align: center;
@@ -78,10 +79,33 @@ header{
         width: @left_side_bar_size;
         padding: 10px 0 10px 0;
     }
-    ul li a {
+    a{
+        display: block;
         white-space: nowrap;
+        width: @button_width;
+        height: @button_height;
+        background-repeat: no-repeat;
+    }
+    .btn_mari a {
+        background-image: url("../image/mari.gif");
     }  
+    .btn_mari a:hover{
+        background-image: url("../image/mari_after.gif");        
+    }
+    .btn_juri a {
+        background-image: url("../image/juri.gif");
+    }  
+    .btn_juri a:hover{
+        background-image: url("../image/juri_after.gif");        
+    }
+    .btn_sisi a {
+        background-image: url("../image/sisi.gif");
+    }  
+    .btn_sisi a:hover{
+        background-image: url("../image/sisi_after.gif");        
+    }
 }
+
 
 //content
 #content{

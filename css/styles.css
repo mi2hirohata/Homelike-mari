@@ -64,8 +64,30 @@ header ul li a {
   width: 200px;
   padding: 10px 0 10px 0;
 }
-#left_side_bar ul li a {
+#left_side_bar a {
+  display: block;
   white-space: nowrap;
+  width: 200px;
+  height: 55px;
+  background-repeat: no-repeat;
+}
+#left_side_bar .btn_mari a {
+  background-image: url("../image/mari.gif");
+}
+#left_side_bar .btn_mari a:hover {
+  background-image: url("../image/mari_after.gif");
+}
+#left_side_bar .btn_juri a {
+  background-image: url("../image/juri.gif");
+}
+#left_side_bar .btn_juri a:hover {
+  background-image: url("../image/juri_after.gif");
+}
+#left_side_bar .btn_sisi a {
+  background-image: url("../image/sisi.gif");
+}
+#left_side_bar .btn_sisi a:hover {
+  background-image: url("../image/sisi_after.gif");
 }
 #content {
   width: 800px;
