@@ -96,6 +96,18 @@ header ul li a {
   padding-bottom: 50px;
   overflow: auto;
 }
+#content #fotorama {
+  background-color: red;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  layout-grid-line: 200px;
+}
+#content #fotorama img {
+  width: 50%;
+  height: 50%;
+  vertical-align: middle;
+}
 footer {
   background-color: #66ffcc;
   position: fixed !important;
