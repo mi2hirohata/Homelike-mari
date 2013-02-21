@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <photos>
     <!-- Plase your photos here -->
-    <photo desc="Picture is from stock.xchng" url="image/gallery/sisi1.JPG" />
+    <photo desc="Picture is from stock.xchng" url="image/gallery/sisi1.jpg" />
     <photo desc="Picture is from stock.xchng" url="image/gallery/mari1.JPG" />
     <photo desc="Picture is from stock.xchng" url="image/gallery/mari2.JPG" />
     <photo desc="Picture is from stock.xchng" url="image/gallery/mari3.JPG" />
